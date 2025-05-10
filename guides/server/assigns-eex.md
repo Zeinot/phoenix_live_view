@@ -271,7 +271,7 @@ The first one is to use `Phoenix.LiveComponent` for each item in the
 comprehension:
 
 ```heex
-<section :for={post <- @posts>}>
+<section :for={post <- @posts}>
   <.live_component module={PostComponent} id={"post-#{post.id}"} post={post} />
 </section>
 ```
