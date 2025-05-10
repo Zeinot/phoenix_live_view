@@ -254,7 +254,7 @@ and collections. For example:
 Or using the special `:for` attribute:
 
 ```heex
-<section :for={post <- @posts>}>
+<section :for={post <- @posts}>
   <h1>{expand_title(post.title)}</h1>
 </section>
 ```
